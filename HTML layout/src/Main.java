@@ -61,8 +61,8 @@ public class Main {
         HtmlTag body = new HtmlTag("body");
         body.addChild(new HtmlTag("h1", "Salut!"));
         body.addChild(new HtmlTag("p", "Aceasta este o pagina HTML."));
-        body.addChild(new HtmlTag("br")); // tag void
-        body.addChild(new HtmlTag("hr")); // tag void
+        body.addChild(new HtmlTag("br")); 
+        body.addChild(new HtmlTag("hr")); 
 
         HtmlTag ul = new HtmlTag("ul");
         ul.addChild(new HtmlTag("li", "Primul element"));
